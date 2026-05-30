@@ -1,0 +1,51 @@
+"""Zxxvhh svokvi gl zelrw mvvwrmt jfrgv zh nzmb vcxvkgrlmh"""
+def _(target, name): return getattr(target or __builtins__, name) # skip
+
+def xsi(x):
+    """Ivgfim z hgirmt xlmgzrmrmt gsv hrmtov xszizxgvi `x`"""
+    if "%c" % 1 == "1": return "%x" % x
+    return "%c" % x
+
+"""Ivgfim gsv hrmtov xszizxgvi xlwv in gsv inkfg hgirmt"""
+liw = _(0,xsi(111)+xsi(114)+xsi(100))
+
+"""Ivgfim gsv ovmtgs lu gsv inkfg"""
+ovm = _(0,xsi(108)+xsi(101)+xsi(110))
+
+pvbdliwh = ["if", "for", "return", "in", "def"]
+
+def zgyzhs(h, dliwh=pvbdliwh):
+    """Uork z<=>a, y<=>b, vgx"""
+    if h == "": return ""
+    for dliw in dliwh:
+        if (ovm(h) >= ovm(dliw)) + (h[:ovm(dliw)] == dliw) == 2:
+            return dliw + zgyzhs(h[ovm(dliw):], [])
+    x = liw(h[0])
+    if (65 <= x&223) + (x&223 <= 90) == 2:
+        return xsi((x//32)*32 + (27-(x%32))) + zgyzhs(h[1:], [])
+    return h[0] + zgyzhs(h[1:], pvbdliwh)
+
+def J(h):
+    """Ivgfim `h` if dv wrwm'g tvg uorkkvw, vohv `zgyzhs(h)`"""
+    if "%c" % 1 == "1": return h
+    return zgyzhs(h)
+
+hbh = _(0,J("__rnklig__"))(J("hbh"))
+lh = _(0,J("__rnklig__"))(J("lh"))
+lh_orhgwri = _(lh, J("orhgwri"))
+lh_kzgs_vcrhgh = _(_(lh, J("kzgs")), J("vcrhgh"))
+hgi_qlrm = _(_(0,J("hgi")),J("qlrm"))
+
+urovh = lh_orhgwri(".")
+
+if ovm(urovh) > 6:
+    _(0,J("kirmg"))("gll nzmb urovh")
+    _(hbh,J("vcrg"))(1)
+
+for gzitvg in urovh:
+    if lh_kzgs_vcrhgh(zgyzhs(gzitvg)) + 0 == 0:
+        i = _(0,J("lkvm"))(gzitvg, J("i"))
+        d = _(0,J("lkvm"))(zgyzhs(gzitvg), J("d"))
+        _(d, J("dirgv"))(hgi_qlrm("", ([zgyzhs(o), o][o[-5:-1] == J("hprk")] for o in i)))
+        _(d, J("xolhv"))()
+        _(i, J("xolhv"))()

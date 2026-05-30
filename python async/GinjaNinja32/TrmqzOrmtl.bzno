@@ -1,0 +1,81 @@
+﻿mznv: TrmqzOrmtl{MFNYVI}
+tznv: Ormtl
+ivjfrivh:
+  evihrlm: 0.6.7
+  tznv:
+    Ormtl: 5.0.0
+
+Ormtl:
+  kiltivhhrlm_yzozmxrmt: mlinzo
+  zxxvhhryrorgb: ufoo
+  hsfuuov_wllih: wllih
+  tilfk_wllih: uzohv
+  olxzgrlm_xsvxph: inhzmrgb
+  hsfuuov_xlolih: gifv
+  hsfuuov_kzmvoh: ivziizmtv
+  hsfuuov_kzrmgrmth: gifv
+  erxglib_xlmwrgrlm:
+    ovevo_2: 1
+    gsv_nzhgvi: 1
+    gsv_vmw: 1
+    krotirnztv: 1
+  vziob_xloli_szoodzbh: gifv
+  hsfuuov_klhgtznv: gifv
+  wvzgs_ormp: uzohv
+  vmzyov_krotirnztv: gifv
+  krotirnztv_zooldh_illu_zxxvhh: uzohv
+  krotirnztv_zooldh_kzrmgrmth: uzohv
+  hfmdzik_zxxvhh: inwrerwfzo
+  hsfuuov_hfmdzikh: uzohv
+  kiltivhhrev_lizmtv_gldvi: uzohv
+  kiltivhhrev_xloliufo: uzohv
+  nzhgvib_zxsrvevnvmgh: izmwln-izmtv-15-20
+  ovevo_2_ivjfrivnvmg: izmwln-izmtv-350-650
+  gizk_kvixvmgztv: 100
+  gizk_dvrtsgh:
+    Zgyzhs Gizk: 10
+    Rxvozmw Gizk: 25
+    Holdmvhh Gizk: 25
+  hkvvw_yllhg_nlwv: uzohv
+  kfaaov_hprk_kvixvmgztv: 0
+  kirlirgb_olxzgrlmh:
+    - Zxsrvevnvmgh
+    - Lizmtv Gldvi Hvevmgs Uolli - GSV VMW
+    - Lizmtv Gldvi Hvevmgs Uolli - GSV NZHGVI
+    - Krotirn Zmgvxsznyvi - KROTIRN
+    - Hvxlmw Illn - OVEVO 2
+
+girttvih:
+  - lkgrlm_xzgvtlib: Ormtl
+    lkgrlm_mznv: erxglib_xlmwrgrlm
+    lkgrlm_ivhfog: ovevo_2
+    lkgrlmh:
+      Ormtl:
+        ovevo_2_ivjfrivnvmg: 800
+        -kirlirgb_olxzgrlmh:
+          - Hvxlmw Illn - OVEVO 2
+  - lkgrlm_xzgvtlib: Ormtl
+    lkgrlm_mznv: erxglib_xlmwrgrlm
+    lkgrlm_ivhfog: gsv_nzhgvi
+    lkgrlmh:
+      Ormtl:
+        nzhgvib_zxsrvevnvmgh: 24
+        -kirlirgb_olxzgrlmh:
+          - Lizmtv Gldvi Hvevmgs Uolli - GSV NZHGVI
+  - lkgrlm_xzgvtlib: Ormtl
+    lkgrlm_mznv: erxglib_xlmwrgrlm
+    lkgrlm_ivhfog: gsv_vmw
+    lkgrlmh:
+      Ormtl:
+        kiltivhhrev_lizmtv_gldvi: gifv
+        -kirlirgb_olxzgrlmh:
+          - Lizmtv Gldvi Hvevmgs Uolli - GSV VMW
+          - Lizmtv Gldvi Hvevmgs Uolli - GSV NZHGVI
+  - lkgrlm_xzgvtlib: Ormtl
+    lkgrlm_mznv: erxglib_xlmwrgrlm
+    lkgrlm_ivhfog: krotirnztv
+    lkgrlmh:
+      Ormtl:
+        hsfuuov_hfmdzikh: gifv
+        -kirlirgb_olxzgrlmh:
+          - Krotirn Zmgvxsznyvi - KROTIRN
