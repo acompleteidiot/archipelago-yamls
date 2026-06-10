@@ -1,0 +1,76 @@
+# 0
+# When Selected
+# Set(0,0,0)
+# Set(9,2,2)
+# End
+# When SpSelected
+# Div(9,2,10)
+# End
+# When EndSelect
+# Add(0,0,0)
+# Add(9,2,1)
+# FullStop
+name: FalorArcaea{NUMBER}
+description: rhyfm
+game: Keymaster's Keep
+requires:
+  version: 0.6.4
+  game:
+    Keymaster's Keep: 2.1.0
+
+Keymaster's Keep:
+  progression_balancing: 0
+  accessibility: full
+  game_selection_bag_size: 0
+
+  goal: keymasters_challenge
+  artifacts_of_resolve_total: 25
+  artifacts_of_resolve_required: 25
+  magic_keys_required: 20
+  conquest_medallions_percentage_required: 80
+
+  keep_areas: 50
+  magic_keys_total: 30
+  unlocked_areas: 1
+  lock_magic_keys_minimum: 2
+  lock_magic_keys_maximum: 4
+  area_trials_minimum: 5
+  area_trials_maximum: 10
+
+  shops_: false
+  shops_percentage_chance: 20
+  shop_items_minimum: 5
+  shop_items_maximum: 5
+  shop_items_progression_percentage_chance: 100
+  shop_hints: true
+
+  include_adult_only_or_unrated_games: false
+  include_modern_console_games: false
+  include_difficult_objectives: true
+  excluded_games_difficult_objectives: []
+  include_time_consuming_objectives: true
+  excluded_games_time_consuming_objectives: []
+  hints_reveal_objectives: false
+
+  game_medley_mode: false
+  game_medley_percentage_chance: 50
+  game_medley_game_selection: []
+  game_medley_game_selection_bag_size: 0
+  game_selection: ['White Knuckle (PC)']
+
+  ChosenAreas: ['Chimney', 'Endless Silos', 'Endless Pipeworks', 'Endless Habitation', 'Endless Abyss', 'Endless Superstructure']
+
+  MinClimbHeight: 25
+  MaxClimbHeight: 50
+  AnyMapFrequency: 40
+
+  local_items: []
+  non_local_items: []
+  start_inventory: {}
+  start_inventory_from_pool: {}
+  start_hints: []
+  start_location_hints: []
+  exclude_locations: []
+  priority_locations: []
+  item_links: []
+  plando_items: []
