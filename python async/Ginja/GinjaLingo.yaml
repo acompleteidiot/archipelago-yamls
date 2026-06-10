@@ -1,0 +1,81 @@
+﻿name: GinjaLingo{NUMBER}
+game: Lingo
+requires:
+  version: 0.6.7
+  game:
+    Lingo: 5.0.0
+
+Lingo:
+  progression_balancing: normal
+  accessibility: full
+  shuffle_doors: doors
+  group_doors: false
+  location_checks: insanity
+  shuffle_colors: true
+  shuffle_panels: rearrange
+  shuffle_paintings: true
+  victory_condition:
+    level_2: 1
+    the_master: 1
+    the_end: 1
+    pilgrimage: 1
+  early_color_hallways: true
+  shuffle_postgame: true
+  death_link: false
+  enable_pilgrimage: true
+  pilgrimage_allows_roof_access: false
+  pilgrimage_allows_paintings: false
+  sunwarp_access: individual
+  shuffle_sunwarps: false
+  progressive_orange_tower: false
+  progressive_colorful: false
+  mastery_achievements: random-range-15-20
+  level_2_requirement: random-range-350-650
+  trap_percentage: 100
+  trap_weights:
+    Atbash Trap: 10
+    Iceland Trap: 25
+    Slowness Trap: 25
+  speed_boost_mode: false
+  puzzle_skip_percentage: 0
+  priority_locations:
+    - Achievements
+    - Orange Tower Seventh Floor - THE END
+    - Orange Tower Seventh Floor - THE MASTER
+    - Pilgrim Antechamber - PILGRIM
+    - Second Room - LEVEL 2
+
+triggers:
+  - option_category: Lingo
+    option_name: victory_condition
+    option_result: level_2
+    options:
+      Lingo:
+        level_2_requirement: 800
+        -priority_locations:
+          - Second Room - LEVEL 2
+  - option_category: Lingo
+    option_name: victory_condition
+    option_result: the_master
+    options:
+      Lingo:
+        mastery_achievements: 24
+        -priority_locations:
+          - Orange Tower Seventh Floor - THE MASTER
+  - option_category: Lingo
+    option_name: victory_condition
+    option_result: the_end
+    options:
+      Lingo:
+        progressive_orange_tower: true
+        -priority_locations:
+          - Orange Tower Seventh Floor - THE END
+          - Orange Tower Seventh Floor - THE MASTER
+  - option_category: Lingo
+    option_name: victory_condition
+    option_result: pilgrimage
+    options:
+      Lingo:
+        shuffle_sunwarps: true
+        -priority_locations:
+          - Pilgrim Antechamber - PILGRIM
