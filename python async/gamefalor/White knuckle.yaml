@@ -10,8 +10,8 @@
 # Add(0,0,0)
 # Add(9,2,1)
 # FullStop
-name: FalorWhuckle
-description: rhyfm
+name: FalorWhuckle{NUMBER}
+description: clomb...
 game: Keymaster's Keep
 requires:
   version: 0.6.4
@@ -29,8 +29,8 @@ Keymaster's Keep:
   magic_keys_required: 20
   conquest_medallions_percentage_required: 80
 
-  keep_areas: 50
-  magic_keys_total: 30
+  keep_areas: 20
+  magic_keys_total: 20
   unlocked_areas: 1
   lock_magic_keys_minimum: 2
   lock_magic_keys_maximum: 4
